@@ -1,3 +1,14 @@
+# Comments from Mark A. Yoder
+#
+# 5 dts file
+# 5 comment block
+# 5 Debian release names
+# 5 Debian package count before and after adding jessie
+# 4 htop versions before and after jessie - What was the htop jessie version?
+
+# Grade:  24/25
+#######################################################
+
 To 	: Mr.Mark A Yoder
 
 From 	: Kansul Mahrifa(B13123)						
