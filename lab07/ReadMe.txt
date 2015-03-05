@@ -1,3 +1,17 @@
+#Comment from Mark A. Yoder
+
+# Demo       5
+# ReadMe.txt 5
+# Fritzing   5
+# Code       10
+# Web page   +5
+
+
+Grade:  29/25
+
+================================================
+
+
 To 	: Mr.Mark A Yoder
 
 From 	: Kansul Mahrifa(B13123)						

@@ -1,3 +1,16 @@
+#Comment from Mark A. Yoder
+
+# Demo       5
+# ReadMe.txt 5
+# Fritzing   2 - Bonus
+# Code       15
+
+
+Grade:  27/25
+
+================================================
+
+
 To 	: Mr.Mark A Yoder
 
 From 	: Kansul Mahrifa(B13123)						
