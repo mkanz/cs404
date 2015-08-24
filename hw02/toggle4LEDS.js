@@ -1,7 +1,8 @@
 var b = require('bonescript');
 var leds =    ["P9_11", "P9_13", "P9_15", "P9_17"];
 var buttons = ["P9_12", "P9_14", "P9_16", "P9_18"];
-var states = [ 0 , 0 , 0 , 0];
+var states = [ 0 , 0 , 0 , 0]; //States of the four LEDS
+
 
 for(var i in leds) {
     b.pinMode(leds[i], b.OUTPUT);
@@ -12,12 +13,14 @@ for(var i in buttons) {
 
 setInterval(check,100);
 
+//Reading all the four buttons
 function check(){
     for(var i in buttons){
 	b.digitalRead(buttons[i], checkButton);
     }
 }
 
+//changing state of LED for the corresponding button.
 function checkButton(x) {
    var i;
    if(x == buttons[0]) i =0;
