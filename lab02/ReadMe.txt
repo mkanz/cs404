@@ -1,7 +1,7 @@
 To 	: Mr.Mark A Yoder
 
 From 	: Kansul Mahrifa(B13123)							Lab partners : Ahmed Karanath(B13104)
-											       					   	   Kansul Mahrifa (B13123)
+											       	       Kansul Mahrifa (B13123)
 Date	: 26 Aug 2015
 
 Subject	: Project report on lab02
