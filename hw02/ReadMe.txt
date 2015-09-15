@@ -4,3 +4,5 @@ Contains files related to homework02
 
 "Etch-a-sketch.js" : Four buttons are used to etch a sketch on the terminal.
 
+Prof. Yoder
+Looks good, though I haven't tested it.

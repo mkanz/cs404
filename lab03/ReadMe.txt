@@ -1,3 +1,9 @@
+Prof. Yoder comments
+Very nice memo. The code you present looks good.
+Where's the code for the web part?
+
+==================================================
+
 To 	: Mr.Mark A Yoder
 
 From 	: Kansul Mahrifa(B13123)						

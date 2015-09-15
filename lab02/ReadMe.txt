@@ -1,3 +1,7 @@
+Prof. Yoder comments:
+Looks good.  Your report is right to the point.
+Could you do it with interrupts rather than polling?
+========================================
 To 	: Mr.Mark A Yoder
 
 From 	: Kansul Mahrifa(B13123)						
