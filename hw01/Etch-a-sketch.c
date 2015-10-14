@@ -43,6 +43,7 @@ int main() {
 	for(i =0; i < MAXY; i++)
 		for(j = 0; j < MAXX; j++)
 			screen[i][j] = ' ';
+	screen[ypos][xpos] = 'x';
 	char c;
 	printf("\n\nW:Up\nA:Left\nS:Down\nD:Right\nQ:Quit\n");	//Instruction  to user
 	print_screen(screen);
@@ -65,7 +66,7 @@ int main() {
 		}
 		else if(c == 'a' || c == 'A' ){		//checking for Left option
 			xpos--; 			//checking for wraping aroundif out of bound
-			if(xpos == 0)
+			if(xpos == -1)
 				xpos = MAXX-1;
 			screen[ypos][xpos] = 'x';
 		}
@@ -74,6 +75,15 @@ int main() {
 			if(xpos == MAXX)		//checking for wraping aroundif out of bound
 				xpos = 0;
 			screen[ypos][xpos] = 'x';
+		}
+		else if(c == 'c'|| c =='C'){		//checking for Clear option
+			for(i =0; i < MAXY; i++)
+				for(j = 0; j < MAXX; j++)	//Clearing the table
+					screen[i][j] = ' ';
+			ypos = MAXY-1;
+			xpos = 0;
+			screen[ypos][xpos] = 'x';
+			
 		}
 		else					//Other invalid keys
 			continue;
