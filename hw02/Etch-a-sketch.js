@@ -1,7 +1,7 @@
 
 var b = require('bonescript');
 var buttons = ["P9_12", "P9_14", "P9_16", "P9_18"];
-var x = 0, y = 0;
+var xpos = 0, ypos = 0;
 var grid = new Array(20);
 
 
@@ -42,11 +42,11 @@ function checkButton(x) {
    var i;
      
    if(x.value == 1){
-	if(x == buttons[0]) y--;
-	else if(x == buttons[1]) y++;
-	else if(x == buttons[2]) x++;
-	else x--;
-	grid[y][x] = '*';
+	if(x == buttons[0]) ypos--;
+	else if(x == buttons[1]) ypos++;
+	else if(x == buttons[2]) xpos++;
+	else xpos--;
+	grid[ypos][xpos] = '*';
 	printGrid(grid);  	
    }
 
