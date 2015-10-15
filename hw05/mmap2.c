@@ -39,6 +39,8 @@ void signal_handler(int sig)
 }
 
 int main(){
+	int switch0_on = 0;
+	int switch1_on = 0;
 	volatile void *gpio0_addr;
 	volatile unsigned int *gpio0_setdataout_addr;
 	volatile unsigned int *gpio0_cleardataout_addr;
