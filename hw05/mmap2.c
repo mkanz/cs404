@@ -1,3 +1,8 @@
+/********************************************
+ * Kansul Mahrifa (B13123)
+ * Date: 14-Oct-2015
+ * 
+ * *****************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/mman.h>
