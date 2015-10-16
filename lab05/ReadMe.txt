@@ -1,3 +1,16 @@
+#Comment from Mark A. Yoder
+# ReadMe very well done.
+# Used two devices and fades an LED for certain distances
+# Be sure to give device numbers
+
+# Demo       5
+# ReadMe.txt 6
+# Fritzing   0
+# Code       8
+# Table      0 - See assignment
+
+Grade:  19/25
+
 To 	: Mr.Mark A Yoder
 
 From 	: Kansul Mahrifa(B13123)						
