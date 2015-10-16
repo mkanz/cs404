@@ -1,18 +1,27 @@
+Comments from Mark A. Yoder
+I see you have the LED matrix lighting up.  I was even able to get your "K" to appear
+after modifying your code.
+I was hoping for some other interesting things. 
+The assignment asked for the display to respond to a button press.
+No Etch-a-sketch.
+
+Grade:  15/25
+
 To 	: Mr.Mark A Yoder
 
 From 	: Kansul Mahrifa(B13123)						
 
 Lab partners : Ahmed Karanath(B13104), Kansul Mahrifa (B13123)
 
-Date	: 10 September 2015
+Date	: 16 September 2015
 
-Subject	: Project report on lab05
+Subject	: Project report on lab04
 
-  Lab 5 was an interesting ecxercise.We worked with Range finders and proximity sensors.
+  Lab 4 was quite different. We worked with an LED matrix, which can be plugged to the bone.
   
-  At first we found object distances using  an ultraosnic range sensor .The code for this function in in the file "Rangefinder.js".
-  Later, we controlled the brightness of two leds with the range finder.The brightness of leds increased as the object came closer.The code is in the file "fade_range.js"
+  At first we drew different faces like smiling face, frowning face and a neutral face on the LED matrix. The code for this is in "LEDmatrix_faces.js".
+  Later, we wrote the letter 'K' on the LEDmatrix .The code is in the file "LEDmatrix_K.js"
+
+  Also, a button is used to print a smiling face on the LED matrix whenever it is pressed. The code for this is in "LEDbutton_smile.js". 
   
-  Proximity sensor was also used to find the distance of objects.The code for this function is the file "proximity.js".
-  
-  Range finders have numerous applications , for example in autonomous cars, parking sensors etc. We can aslo use them in wheel chairs for the blind and disabled.Proximity sensors are commonly seen in moblies phones etc.
+ LED matrices can be used for displaying signs or symbols and even to display text messages. We aim to iincorporate our etch-a-sketch program to the LEDmatrix, in the coming lab sessions.

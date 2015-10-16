@@ -1,0 +1,19 @@
+Mar  1 22:42:13 beaglebone kernel: [ 5949.294124] omap_i2c 4819c000.i2c: controller timed out
+Mar  1 22:42:15 beaglebone kernel: [ 5950.860442] omap_i2c 4819c000.i2c: controller timed out
+Mar  1 23:11:37 beaglebone kernel: [ 7712.618421] EBB: Hello world from the BBB LKM!
+Mar  1 23:11:37 beaglebone kernel: [ 7712.618465] EBB: Adress: IIT
+Mar  1 23:12:01 beaglebone kernel: [ 7736.806013] EBB: Goodbye world from the BBB LKM!
+Mar  1 23:12:13 beaglebone kernel: [ 7749.450485] EBB: Hello Kansul from the BBB LKM!
+Mar  1 23:12:13 beaglebone kernel: [ 7749.450530] EBB: Adress: IIT
+Mar  1 23:12:30 beaglebone kernel: [ 7765.959187] EBB: Goodbye Kansul from the BBB LKM!
+Mar  1 23:12:46 beaglebone kernel: [ 7781.645460] EBB: Hello Ahmed from the BBB LKM!
+Mar  1 23:12:46 beaglebone kernel: [ 7781.645504] EBB: Adress: IIT
+Mar  1 23:13:29 beaglebone kernel: [ 7824.626585] EBB: Goodbye Ahmed from the BBB LKM!
+Mar  1 23:13:32 beaglebone kernel: [ 7827.671171] EBB: Hello Kansul from the BBB LKM!
+Mar  1 23:13:32 beaglebone kernel: [ 7827.671215] EBB: Adress: IIT
+Mar  1 23:13:33 beaglebone kernel: [ 7829.227540] EBB: Goodbye Kansul from the BBB LKM!
+Mar  1 23:13:50 beaglebone kernel: [ 7846.260509] hello2: `Kamand' invalid for parameter `Address'
+Mar  1 23:13:55 beaglebone kernel: [ 7851.348379] hello2: `Kamand' invalid for parameter `address'
+Mar  1 23:14:01 beaglebone kernel: [ 7857.026698] EBB: Hello Ahmed from the BBB LKM!
+Mar  1 23:14:01 beaglebone kernel: [ 7857.026740] EBB: Adress: Kamand
+Mar  1 23:14:09 beaglebone kernel: [ 7864.804282] EBB: Goodbye Ahmed from the BBB LKM!

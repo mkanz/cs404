@@ -22,12 +22,12 @@ b.i2cWriteByte(port,  0x21); // Start oscillator (p10)
 b.i2cWriteByte(port,  0x81); // Disp on, blink off (p11)
 b.i2cWriteByte(port,  0xe7); // Full brightness (page 15)
 
-//doFrown();
+doFrown();
 function doFrown() {
 	b.i2cWriteBytes(port, 0x00, frown);
 }
 
-//setTimeout(doNeutral, 1*time);
+setTimeout(doNeutral, 1*time);
 function doNeutral() {
 	b.i2cWriteBytes(port, 0x00, neutral);
 }
@@ -55,4 +55,11 @@ function doFadeUp() {
 	if(fade <= 0xef) {
 		setTimeout(doFadeUp, time/10);
 	}
+}
+
+setInterval(checkButton, 100);
+
+function checkButton(x){
+	if(x.value === 1)
+		doSmile();
 }

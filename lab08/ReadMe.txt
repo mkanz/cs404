@@ -19,5 +19,7 @@ Subject	: Project report on lab08
   The new file is saved as "hello2.c"
 
   We also changed the makefile to complie hello2.c.  
+  
+  "ker_log.txt" contains the last few lines of kern.log in /var/log in the beaglebone when the LKMs are installed and removed.
 
   In this lab we learnt the basics of LKMs, and a few related concepts.
