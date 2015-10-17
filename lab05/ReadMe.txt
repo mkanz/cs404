@@ -1,3 +1,6 @@
+##
+Edited: 17 Oct 2015
+
 #Comment from Mark A. Yoder
 # ReadMe very well done.
 # Used two devices and fades an LED for certain distances
