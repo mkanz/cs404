@@ -5,7 +5,7 @@ setInterval(reader, 100);
 
 //Read value from proximity sensor and calls print function
 function reader(){
-    b.analogRead('P9_36', printStatus);
+    b.analogRead('P9_33', printStatus);
 }
 
 //calibrate the output of the proximity sensor
