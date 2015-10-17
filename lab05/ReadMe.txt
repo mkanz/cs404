@@ -28,4 +28,6 @@ Subject	: Project report on lab05
   
   Proximity sensor was also used to find the distance of objects.The code for this function is the file "proximity.js".
   
+  Fritzong diagram is attached as "sensor.fzz" and the Actual Distance vs Measured Distance table is attached as "Maxsonar sensor table.pdf".
+  
   Range finders have numerous applications , for example in autonomous cars, parking sensors etc. We can aslo use them in wheel chairs for the blind and disabled.Proximity sensors are commonly seen in moblies phones etc.
