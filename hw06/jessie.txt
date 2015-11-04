@@ -1,0 +1,15 @@
+This file contains answers to some question asked on Debian Releases.
+
+1) Debian release codenames:
+    i) Stable release: 'jessie'
+    ii) Testing release: 'stretch'
+    iii) Unstable release: 'sid'
+    
+2) There were 36556 packages available to install.
+
+3) Version of htop installed was 1.0.1-1.
+
+4) To add jessie release packages, we use backports:
+    bone$ echo "deb http://ftp.us.debian.org/debian/ wheezy-backports main" > /etc/apt/sources.list.d/wheezy-backports.list
+    
+5) Version of htop of jessie is 1.0.3-1.
